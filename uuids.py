@@ -4,7 +4,7 @@ import json
 def main():
     try:
         base_url = "https://www.wifimap.io/_next/data/SftcpLr_Sra_tj7N_Hxkg/en/map/"
-        start_id = 1
+        start_id = 4373
         end_id = 7997
         uuids = []
         
