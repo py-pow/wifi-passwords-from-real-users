@@ -8,7 +8,7 @@ transport = RequestsHTTPTransport(url=api_url, use_json=True)
 
 client = Client(transport=transport, fetch_schema_from_transport=True)
 
-with open("uuid.json", "r") as json_file:
+with open("mod1.json", "r") as json_file:
     uuids = json.load(json_file)
 
 query = gql("""
