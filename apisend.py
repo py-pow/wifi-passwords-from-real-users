@@ -2,15 +2,20 @@ from gql import gql, Client
 from gql.transport.requests import RequestsHTTPTransport
 import json
 
+# GraphQL API URL
 api_url = "https://api.wifimap.io/graphql_public_api"
 
+# GraphQL API'ye HTTP isteği yapmak için bir taşıyıcı oluşturun
 transport = RequestsHTTPTransport(url=api_url, use_json=True)
 
+# Taşıyıcıyı kullanarak bir GraphQL istemcisi oluşturun
 client = Client(transport=transport, fetch_schema_from_transport=True)
 
+# JSON dosyasından UUID'leri yükleyin
 with open("mod1.json", "r") as json_file:
     uuids = json.load(json_file)
 
+# UUID için GraphQL sorgusu
 query = gql("""
   query fetchHotspot($uuid: String) {
     hotspot(uuid: $uuid) {
@@ -21,15 +26,20 @@ query = gql("""
   }
 """)
 
-with open("passwords.txt", "w") as pass_file:
+# Dosyayı yazmak için wifimappass.list'i açın
+with open("password.txt", "w") as pass_file:
+    # Her UUID için döngü
     for uuid in uuids:
+        # Sorgu değişkenlerini tanımlayın
         variables = {
             "uuid": uuid
         }
 
         try:
+            # Sorguyu çalıştırın
             result = client.execute(query, variable_values=variables)
 
+            # Şifreleri alın
             tips = result['hotspot']['tips']
             password_found = False
 
@@ -45,5 +55,3 @@ with open("passwords.txt", "w") as pass_file:
 
         except Exception as e:
             print(f"UUID: {uuid}, Hata oluştu: {e}")
-        except KeyboardInterrupt:
-            print(f"{uuid}'ne kadar tarandı.")
