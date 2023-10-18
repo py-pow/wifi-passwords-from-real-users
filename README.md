@@ -15,6 +15,7 @@ Kullanılan Kütüphaneleri yükleyin.
 
 ```python 
 $  pip install -r requirements.txt
+$  pip install requests-toolbelt
 
 ```
     
@@ -28,15 +29,14 @@ $ python3 apisend.py
 ```
 
   
-## Screenshots
+## Ekran Görüntüleri
 
-![Tool Screenshot](https://user-images.githubusercontent.com/120333416/273262981-2569bf73-8e1a-4c84-9f9e-b23c5ef022ff.png)
+![Tool Screenshot](https://private-user-images.githubusercontent.com/120333416/275463124-2fa268de-e998-4843-b843-18764f78f5f6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTc2MzczMDYsIm5iZiI6MTY5NzYzNzAwNiwicGF0aCI6Ii8xMjAzMzM0MTYvMjc1NDYzMTI0LTJmYTI2OGRlLWU5OTgtNDg0My1iODQzLTE4NzY0Zjc4ZjVmNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMDE4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTAxOFQxMzUwMDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03MDQ3YTYwZGQ0YWU4ZDE3NzQ3ZDI5OTc0M2FmNmFjOTk3NjI2MWI3NTc2YTk5NTE5MDMyMjIyZDA1NjI1NzZhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.cAe3LK48ctp4ibhMqLf07caMUbBNJHWY_xZwamh3VqA)
+![Tool Screenshot]()
 
-![Tool Screenshot](https://user-images.githubusercontent.com/120333416/273263001-dfec3a81-7b1f-4d65-bcee-1d071490dce1.png)
+![Tool Screenshot]()
   
-## Demo Video
 
-[![asciicast](https://asciinema.org/a/9hoFh4gdq1xbhswiNRbvDl62U.svg)](https://asciinema.org/a/9hoFh4gdq1xbhswiNRbvDl62U)![Ekran Görüntüsü (32)](https://github.com/py-pow/HTTP-Status-Checker-v1.1/assets/120333416/dfec3a81-7b1f-4d65-bcee-1d071490dce1)
 
   
  
