@@ -4,7 +4,7 @@ import json
 def main():
     try:
         base_url = "https://www.wifimap.io/_next/data/SftcpLr_Sra_tj7N_Hxkg/en/map/"
-        start_id = 6558
+        start_id = 1
         end_id = 7997
         uuids = []
         
@@ -31,7 +31,7 @@ def main():
                 
             start_id += 1
         
-            with open("mod.json", "w") as json_file:
+            with open("uuids.json", "w") as json_file:
              json.dump(uuids, json_file, indent=4)
     except Exception as e:
         print(f"Hata oluştu: {str(e)}")
