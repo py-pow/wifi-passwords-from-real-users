@@ -4,7 +4,8 @@
     
 # wifimap.io API with wifi passwords from real users
 
-wifimap.io API kullanarak gerçek kullanıcıların paylaştığı Wi-Fi şifrelerini elde etmek için yazdığım araç.
+wifimap API kullanarak gerçek kullanıcıların paylaştığı Wi-Fi şifrelerini elde etmek için yazdığım araç.
+wifimap sitesini ziyaret ettiğinizde hostspotların listelendiğini ve bu hostspotlara ait parolaya erişmek için uygulamayı indirmeniz gerekmekte, istek ve cevaplara baktığımda Graqhl API ile bilgileri getirdiğini ve bilgiler içinde paroların olduğunu farkettim ve bu aracı yazarak binlerce gerçek kullanıların wifi parolaları elde ettim.
 
 
 
