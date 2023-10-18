@@ -29,8 +29,14 @@ $ python3 apisend.py
 ```
 
   
-## Ekran Görüntüleri
-
-![Ekran Görüntüsü (43)](https://github.com/py-pow/wifi-passwords-from-real-users/assets/120333416/fd444654-60f5-4e7e-9591-d1aaf857c5b7)
-
+## İstatistikler
++ Uuids :heavy_minus_sign: 190.000+
++ Parola :heavy_minus_sign: 2000+
+_________________
+En Çok Kullanılan 5 Parola
++   12345678
++   123456789
++   11111111
++   1234567890
++   1234512345
 
